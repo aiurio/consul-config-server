@@ -1,0 +1,38 @@
+hash: 8113ee15be635927eac6b1bc3adab20d1a2c2ed3a98d469a1cb4c350cea79194
+updated: 2017-02-20T21:11:07.113920098-07:00
+imports:
+- name: github.com/asaskevich/govalidator
+  version: edd46cdac249b001c7b7d88c6d43993ea875e8d8
+- name: github.com/derekdowling/go-json-spec-handler
+  version: 0206f415abb08c33ee02aa7e53dbb94e39c99cae
+  subpackages:
+  - goji2-logger
+  - jsh-api
+  - jsh-api/store
+- name: github.com/derekdowling/go-stdlogger
+  version: cfa80b78b82f8d241ceece0b733b1161bb6a885c
+- name: github.com/hashicorp/consul
+  version: 21f2d5ad0c02af6c4b32d8fd04f7c81e9b002d41
+  subpackages:
+  - api
+- name: github.com/hashicorp/go-cleanhttp
+  version: 3573b8b52aa7b37b9358d966a898feb387f62437
+- name: github.com/hashicorp/serf
+  version: 050c56d31a1ff2ebc50e3f4810fdff7e7563f6c8
+  subpackages:
+  - coordinate
+- name: github.com/zenazn/goji
+  version: bf843a174a08e846246b8945f8a9a853d84a256a
+  subpackages:
+  - web/mutil
+- name: goji.io
+  version: 8110ccbc05240c40d43ccb004e0542b3bcbf27da
+  subpackages:
+  - internal
+  - pat
+  - pattern
+- name: golang.org/x/net
+  version: 28273ec927bee3bea305f112fc28ceee575ea893
+  subpackages:
+  - context
+testImports: []

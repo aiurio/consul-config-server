@@ -1,0 +1,11 @@
+package: .
+import:
+- package: github.com/hashicorp/consul
+  version: v0.7.5
+  subpackages:
+  - api
+- package: github.com/derekdowling/go-json-spec-handler
+  version: ~0.10.1
+- package: golang.org/x/net
+  subpackages:
+  - context
